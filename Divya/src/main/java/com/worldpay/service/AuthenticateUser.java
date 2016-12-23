@@ -15,6 +15,7 @@ public class AuthenticateUser {
 		System.out.println("key "+key);
 		String fileData = file.getFileData();
 		if(newKey.equals(fileData)){
+			System.out.println("Matched");
 			flag=true;
 		}
 		else {
